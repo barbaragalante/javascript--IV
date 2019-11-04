@@ -1,2 +1,2 @@
-# javascript--IV
-semana 4 de javascript
+# javascript-IV
+Semana 4 de javascript.
