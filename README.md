@@ -1,8 +1,2 @@
-<<<<<<< HEAD
-# javascript--IV
-semana 4 de javascript
-=======
-# T8-javascript-IV
-
-Develop
->>>>>>> upstream/aula1
+# javascript-IV
+Semana 4 de javascript.
