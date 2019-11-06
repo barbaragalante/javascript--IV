@@ -25,3 +25,15 @@ let resultados = [
         imagem: "http://img.recipepuppy.com/5.jpg"
     }
 ];
+
+
+
+users.map((user,index) => {
+new avatar (user).renderComCreate()
+})
+document.getElementById('cards-section').insertAdjacentHTML('beforeend','<br></br>')
+
+users.forEach(user => {
+    
+    
+});
