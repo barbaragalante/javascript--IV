@@ -27,7 +27,6 @@ let resultados = [
 ];
 
 
-<<<<<<< HEAD
 
 users.map((user,index) => {
 new avatar (user).renderComCreate()
@@ -38,25 +37,3 @@ users.forEach(user => {
     
     
 });
-=======
-const renderNavbar = new Navbar
-
-renderNavbar.render()
-
-resultados.map(receita => {
-    new Card(receita).render()
-})
-
-document.querySelector('.button__search').addEventListener('click', function(){
-    let inputValue = document.querySelector('.input__search').value.toUpperCase()
-    let achados = resultados.filter(receita => {
-        // o meu inputValue está incluso em alguma parte do título OU dos ingredientes.
-        return receita.titulo.toUpperCase().includes(inputValue) || receita.ingredientes.toUpperCase().includes(inputValue)
-    })
-
-    document.querySelector('.cards').innerHTML = ""
-    achados.map(encontrado => {
-        new Card(encontrado).render()
-    })
-})
->>>>>>> upstream/aula2
