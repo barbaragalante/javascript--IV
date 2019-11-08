@@ -27,3 +27,5 @@ carregaCartas()
 novaCarta = () => {
     carregaCartas()
 }
+
+
